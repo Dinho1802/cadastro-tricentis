@@ -2,7 +2,7 @@
 
   describe('Cadastro Tricentis', () => {
 })
-    it.only('Verifica o titulo da aplicação', () => {
+    it('Verifica o titulo da aplicação', () => {
   
       cy.visit('./101/app.php', {failOnStatusCode: false});
       cy.title().should('be.equal', 'Enter Vehicle Data');
