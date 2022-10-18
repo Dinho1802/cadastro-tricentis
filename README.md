@@ -6,4 +6,4 @@ Após instalar
 A pasta Node_Modules não está no código do Git por que a mesma é muito pesada.
 Para instalar a pasta Node_Modules para o projeto funcionar é necessário inserir no terminal o comando "npm install -i"
 
-Após esses passos terem sido realizados, no terminal inserir o comando "npmx cypress open".
+Após esses passos terem sido realizados, no terminal inserir o comando "npx cypress open".
